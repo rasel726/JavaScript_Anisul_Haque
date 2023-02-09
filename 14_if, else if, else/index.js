@@ -78,30 +78,47 @@ else{
 // Grade System (marks to grade)
 var marks = prompt("Enter your marks : ");
 
-if(marks >= 80){
-    document.write("Result : " + "GPA- 5 (A+)" + "<br/>");
+var result = "";
+
+/* 
+SAJIB VAI ER CODE
+let loopBreak = false;
+
+let data = {
+    "101" : "Invalid", 
+    "80" : "A+", 
+    "70" : "A", 
+    "60" : "A-", 
+    "50" : "B", 
+    "40" : "C", 
+    "33" : "D",
+};
+
+Object.keys(data).reverse().forEach((key) => {
+    if(marks >= parseInt(key) && !loopBreak){
+        result = data[key];
+        loopBreak = true;
+    }
+});
+*/
+
+
+if(marks > 100){
+    result = "Invalid";
+} else if(marks >= 80){
+    result = "5 (A+)";
+} else if(marks >= 70){
+    result = "4 (A)";
+} else if(marks >= 60){
+    result = "3.5 (A-)";
+} else if(marks >= 50){
+    result = "3 (B)";
+} else if(marks >= 40){
+    result = "2 (C)";
+} else if(marks >= 33){
+    result = "1 (D)";
+} else{
+    result = "Failed";
 }
 
-else if(marks >= 70){
-    document.write("Result : " + "GPA- 4 (A)" + "<br/>");
-}
-
-else if(marks >= 60){
-    document.write("Result : " + "GPA- 3.5 (A-)" + "<br/>");
-}
-
-else if(marks >= 50){
-    document.write("Result : " + "GPA- 3 (B)" + "<br/>");
-}
-
-else if(marks >= 40){
-    document.write("Result : " + "GPA- 2 (C)" + "<br/>");
-}
-
-else if(marks >= 33){
-    document.write("Result : " + "GPA- 1 (D)" + "<br/>");
-}
-
-else{
-    document.write("Result : " + "GPA- Failed" + "<br/>");
-}
+document.write("Result : GPA- " + result + "<br/>");
