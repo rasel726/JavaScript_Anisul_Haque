@@ -79,29 +79,29 @@ else{
 var marks = prompt("Enter your marks : ");
 
 if(marks >= 80){
-    document.write("Result : " + "A+" + "<br/>");
+    document.write("Result : " + "GPA- 5 (A+)" + "<br/>");
 }
 
 else if(marks >= 70){
-    document.write("Result : " + "A" + "<br/>");
+    document.write("Result : " + "GPA- 4 (A)" + "<br/>");
 }
 
 else if(marks >= 60){
-    document.write("Result : " + "A-" + "<br/>");
+    document.write("Result : " + "GPA- 3.5 (A-)" + "<br/>");
 }
 
 else if(marks >= 50){
-    document.write("Result : " + "B" + "<br/>");
+    document.write("Result : " + "GPA- 3 (B)" + "<br/>");
 }
 
 else if(marks >= 40){
-    document.write("Result : " + "C" + "<br/>");
+    document.write("Result : " + "GPA- 2 (C)" + "<br/>");
 }
 
 else if(marks >= 33){
-    document.write("Result : " + "D" + "<br/>");
+    document.write("Result : " + "GPA- 1 (D)" + "<br/>");
 }
 
 else{
-    document.write("Result : " + "Failed" + "<br/>");
+    document.write("Result : " + "GPA- Failed" + "<br/>");
 }
