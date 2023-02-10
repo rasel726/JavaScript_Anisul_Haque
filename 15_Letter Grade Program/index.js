@@ -19,7 +19,7 @@ if(marks > 100){
 } else if(marks >= 33){
     result = "1 (D)";
 } else{
-    result = "Failed";
+    result = "Fail";
 }
 
 document.write("Result : GPA- " + result + "<br/>");
