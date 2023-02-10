@@ -26,6 +26,9 @@ if(marks > 100 || marks < 0){
 document.write("Result : GPA- " + result + "<br/>");
 */
 
+
+
+/*
 // 3ti songkha nibo and 3ti songkhar moddhe boro songkhati nirnoy korar program
 var num1 = prompt("Enter number 1 : ");
 var num2 = prompt("Enter number 2 : ");
@@ -42,3 +45,17 @@ if(num1 > num2 && num1 > 3){
 }
 
 document.write("Big number = " + bigNumber);
+*/
+
+
+
+// Vowel/Consonant
+var letter = prompt("Enter e letter : ");
+
+letter = letter.toLowerCase();
+
+if(letter == "a" || letter == "e" || letter == "i" || letter == "o" || letter == "u"){
+    document.write("Vowel");
+} else{
+    document.write("Constant");
+}
