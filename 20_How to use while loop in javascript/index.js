@@ -26,4 +26,19 @@ while(i <= 100){
     i = i + 2;
 }
 
-document.write(sum);
+// document.write(sum);
+
+
+// TASK-6
+var i = 1;
+var result = 0;
+
+while(i <= 100){
+    if((i % 3 == 0) && (i % 5 == 0)){
+        result = result + i;
+        console.log(i);
+    }
+    i = i + 1;
+}
+
+document.write(result);
