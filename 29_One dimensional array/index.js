@@ -1,4 +1,4 @@
-// one dimensional array
+// 1D: one dimensional array
 
 function highestScore(scores) {
     var max = scores[0];
