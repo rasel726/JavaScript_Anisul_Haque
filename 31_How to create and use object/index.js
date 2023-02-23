@@ -34,8 +34,8 @@ console.log(student1.name); */
 }
 
 var student1 = new Student("Rasel", 25, 3.50, ["Bangla", "English", "Arabic"]);
-var student2 = new Student("Rasel", 26, 3.60, ["Bangla", "English", "Arabic", "Hindi"]);
-var student3 = new Student("Rasel", 27, 3.70, ["Bangla", "English", "Arabic", "Urdu", "Hindi", "Tamil"]);
+var student2 = new Student("Sajib", 26, 3.60, ["Bangla", "English", "Arabic", "Hindi"]);
+var student3 = new Student("Safi", 27, 3.70, ["Bangla", "English", "Arabic", "Urdu", "Hindi", "Tamil"]);
 
 console.log(student1.name);
 console.log(student1.age);
@@ -60,8 +60,8 @@ function Student(name, age, cgpa, lang) {
 }
 
 var student1 = new Student("Rasel", 25, 3.50, ["Bangla", "English", "Arabic"]);
-var student2 = new Student("Rasel", 26, 3.60, ["Bangla", "English", "Arabic", "Hindi"]);
-var student3 = new Student("Rasel", 27, 3.70, ["Bangla", "English", "Arabic", "Urdu", "Hindi", "Tamil"]);
+var student2 = new Student("Sajib", 26, 3.60, ["Bangla", "English", "Arabic", "Hindi"]);
+var student3 = new Student("Safi", 27, 3.70, ["Bangla", "English", "Arabic", "Urdu", "Hindi", "Tamil"]);
 
 student1.display();
 student2.display();
