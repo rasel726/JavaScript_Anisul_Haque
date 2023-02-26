@@ -21,3 +21,5 @@ document.getElementsByTagName("h3")[1].innerHTML = "Bye";
 
 
 // getElementByClassName
+document.getElementsByClassName("para1")[0].innerHTML = "name 1";
+document.getElementsByClassName("para2")[0].innerHTML = "name 2";
