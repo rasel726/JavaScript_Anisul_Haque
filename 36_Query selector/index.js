@@ -13,3 +13,4 @@ document.querySelector(".my-div").innerHTML = "Contact to Number";
 // querySelectorAll() use
 
 document.querySelectorAll("p")[0].innerHTML = "This is changed";
+document.querySelectorAll("p")[1].innerHTML = "This is changed";
